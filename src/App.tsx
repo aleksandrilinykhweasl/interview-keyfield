@@ -11,7 +11,7 @@ function generateKey() {
 }
 
 export default function App() {
-  const [form, setForm] = useState<OrderForm>({ key: '' });
+  const [form, setForm] = useState<OrderForm>({ key: 'ORD-000001' });
 
   const handleKeyChange = useCallback((key: string) => {
     setForm((prev) => ({ ...prev, key }));
