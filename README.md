@@ -20,6 +20,5 @@ npm run dev
 
 ## Symptom
 
-The field starts with ORD-000001. After clicking "Generate key" the "Form state"
-line shows the new key while
-the field keeps showing ORD-000001. Typing into the field works.
+The field starts with ORD-000001. After clicking "Generate key" the field still
+shows ORD-000001 instead of the new key.
