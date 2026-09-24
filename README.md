@@ -6,7 +6,7 @@ with semantic versioning.
 
 ## Open in StackBlitz
 
-https://stackblitz.com/github/AleksandrIlinykh/interview-keyfield
+https://stackblitz.com/github/aleksandrilinykhweasl/interview-keyfield
 
 StackBlitz clones this repository, installs the dependencies and starts the dev
 server. Nothing is saved back: every visit starts from the current `main`.
