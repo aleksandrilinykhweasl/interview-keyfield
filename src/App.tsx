@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     <Stack spacing={2} sx={{ p: 4, maxWidth: 400 }}>
-      <KeyField value={key} onChange={setKey} />
+      <KeyField label="Order key" value={key} onChange={setKey} />
       <Button variant="contained" onClick={handleGenerateKey}>
         Generate key
       </Button>

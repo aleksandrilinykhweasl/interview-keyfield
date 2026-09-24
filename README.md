@@ -22,5 +22,5 @@ npm run dev
 
 ## Symptom
 
-The field starts with ORD-000001. After clicking "Generate key" the field still
-shows ORD-000001 instead of the new key.
+The client passes `label="Order key"` to `KeyField`, but the field is rendered
+without a label.
