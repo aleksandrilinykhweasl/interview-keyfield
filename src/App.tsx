@@ -1,6 +1,6 @@
 import { Button, Stack } from '@mui/material';
 import { useCallback, useState } from 'react';
-import { KeyField } from './lib/KeyField';
+import { KeyField } from '@aleksandr.ilinykh.weasl/interview-ui';
 
 function generateKey() {
   return 'ORD-' + Math.random().toString(36).slice(2, 8).toUpperCase();

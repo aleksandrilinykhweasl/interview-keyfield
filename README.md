@@ -1,8 +1,10 @@
 # Interview task: KeyField
 
-An order form with a "Generate key" button. The `KeyField` component is imported
-from `src/lib`, which stands in for the internal component library published
-with semantic versioning.
+A form with a key field and a "Generate key" button. The `KeyField` component
+comes from the internal component library
+[`@aleksandr.ilinykh.weasl/interview-ui`](https://github.com/aleksandrilinykhweasl/interview-ui),
+which lives in its own repository and is published to npm with semantic
+versioning.
 
 ## Open in StackBlitz
 
